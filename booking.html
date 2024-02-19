@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <title>Appointment Application</title>
+</head>
+<body>
+<h2>Appointment Booking Application</h2><br>
+  <form id="options_info">
+    <input type="text" id="name" name="name" placeholder="Full Name"required>
+    <input type="phonenumber" id="number" name="phonenumber" required>
+    <input type="text" id="email" name="mail" placeholder="Mail Id"required>
+    <input id="submit" type="submit" value="Submit">
+    <input type="text" id="id" name="id" hidden required>
+  </form><br>
+  <ul id="output_screen">
+  </ul>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+  <script src="booking.js"></script>
+</body>
+</html>
